@@ -62,7 +62,7 @@ jobs:
     runs-on: windows-latest
     steps: 
       - name: Download UiPath Artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: Artifacts
       - name: Publish Nuget Package to DEV
@@ -74,7 +74,7 @@ jobs:
     runs-on: windows-latest  
     steps: 
       - name: Download UiPath Artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: Artifacts
       - name: Test the Package With Test Cases 
@@ -86,9 +86,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: pull-request
-        uses: repo-sync/pull-request@v2
+        uses: repo-sync/pull-request@v4
         with:
           destination_branch: "main"
           github_token: ${{ secrets.GITHUB_TOKEN }}
