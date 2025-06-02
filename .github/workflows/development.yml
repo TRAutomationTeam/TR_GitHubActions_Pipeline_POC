@@ -8,7 +8,7 @@ on:
 # Here the environment variable is declared in workflow level
 env:
   # Replace with your Orchestrator Values 
-  PROJECT_NAME: TR_GitHubActions_Pipeline_POC
+  PROJECT_NAME: TR_GitHubActions_Pipeline_POC_1
   PROJECT_FOLDER: ${{ github.action_path }}
   ORCH_URL: https://cloud.uipath.com/surepymsxjta/DefaultTenant
   ORCH_TENANT: ${{ secrets.UIPATH_TENANT_ID }}
