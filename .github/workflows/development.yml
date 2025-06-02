@@ -10,7 +10,7 @@ env:
   # Replace with your Orchestrator Values 
   PROJECT_NAME: TR_GitHubActions_Pipeline_POC
   PROJECT_FOLDER: ${{ github.action_path }}
-  ORCH_URL: https://cloud.uipath.com/surepymsxjta/DefaultTenant
+  ORCH_URL: https://cloud.uipath.com/
   ORCH_TENANT: ${{ secrets.UIPATH_TENANT_ID }}
   ORCH_CLIENT_ID: ${{ secrets.UIPATH_CLIENT_ID }}
   ORCH_USER_KEY: ${{ secrets.UIPATH_USER_KEY }}
