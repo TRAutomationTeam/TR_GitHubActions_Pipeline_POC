@@ -15,7 +15,7 @@ env:
   ORCH_CLIENT_ID: ${{ secrets.UIPATH_CLIENT_ID }}
   ORCH_USER_KEY: ${{ secrets.UIPATH_USER_KEY }}
   ORCH_ACC_NAME: ${{ secrets.UIPATH_ACCOUNT_ID }}
-  ORCH_FOLDER: Automation
+  ORCH_FOLDER: Automation/RPA
 
 jobs:
   print-details:
